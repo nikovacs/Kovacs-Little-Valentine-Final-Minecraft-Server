@@ -18,7 +18,7 @@
 
 To start the Minecraft server locally, enter the local_server folder...
 
-Download ngrok.zip from https://ngrok.com/ and place it in local_server folder
+Download ngrok.zip from https://ngrok.com/ and place it in local_server folder (if on mac, already provided for you in folder)
 ```
 unzip ngrok.zip
 ```
@@ -39,7 +39,7 @@ To start the Minecraft server in Vagrant, enter the vm folder and type:
 vagrant up
 ```
 
-To start the Minecraft server using AWS Lightsail:
+## To start the Minecraft server using AWS Lightsail:
 ```
   1. Login into your AWS Account.
   2. Create a Lightsail instance using Ubuntu.
