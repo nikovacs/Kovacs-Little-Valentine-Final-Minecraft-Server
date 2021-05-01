@@ -18,6 +18,11 @@
 
 To start the Minecraft server locally, enter the local_server folder...
 
+Download ngrok.zip from https://ngrok.com/ and place it in local_server folder
+```
+unzip ngrok.zip
+```
+
 Edit the start_command.sh file and enter your auth token:
 ```
 ngrok authtoken <auth token here>
